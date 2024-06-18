@@ -27,5 +27,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Database ###
 /src/database/.config
 /src/database/db.properties

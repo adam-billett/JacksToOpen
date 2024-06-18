@@ -9,15 +9,17 @@ public class Balance {
         return amount;
     }
 
-    public void add(int amount) {
+    public Balance add(int amount) {
         this.amount += amount;
+        return null;
     }
 
-    public void deduct(int amount) {
+    public Balance deduct(int amount) {
         if (this.amount >= amount) {
             this.amount -= amount;
         } else {
             System.out.println("Insufficient balance.");
         }
+        return null;
     }
 }
